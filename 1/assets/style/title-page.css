@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.choose-section {
+  display: flex;
+}/*# sourceMappingURL=title-page.css.map */

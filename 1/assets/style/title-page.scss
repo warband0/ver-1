@@ -1,0 +1,31 @@
+// variables 
+$text-dark: #403F3D;
+$text-light: #E1D4C9;
+$text-accent: #B0907A;
+
+$background-body: #E1D4C9;
+$background-container: #665F55;
+$background-backdrop: rgb(65, 64, 62, 0.8);
+
+$border-light: #C1B6AD;
+$border-dark: #665F55;
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  text-align: center;
+  font-family: sans-serif;
+}
+  .body-container {
+    
+  }
+  .choose-section {
+    display: flex;
+  }
+  .choose-section__fieldset {
+  }
+  .choose-section__container {
+  }
+

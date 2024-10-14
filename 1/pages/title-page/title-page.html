@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>Coffee House</title>
+    <link rel="shortcut icon" href="../../assets/img/logo-img.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../assets/style/header.css">
+    <link rel="stylesheet" href="../../assets/style/footer.css">
+    <link rel="stylesheet" href="../../assets/style/title-page.css">
+    <link rel="stylesheet" href="../../assets/style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header-container">
+        <a href="../title-page/title-page.html" class="header__logo"><img src="../../assets/img/logo-img.png" alt=""><div class="header__logo-text">СПЕЦКАБЕЛЬ</div></a>
+        <nav class="header__nav">
+            <li class="header__li dropdown">
+                <button class="dropbtn">Кабели</button>
+                <div class="dropdown-content">
+                    <a href="../full-search/index.html">Поиск по индексу</a>
+                    <a href="../fast-search/index.html">Быстрый поиск</a>
+                    <a href="../full-search/index.html">Расширенный поиск</a>
+                </div>
+            </li>
+            <li class="header__li dropdown">
+                <button class="dropbtn">Аксессуары</button>
+                <div class="dropdown-content">
+                    <a href="#">Поиск по индексу</a>
+                    <a href="#">Быстрый поиск</a>
+                    <a href="#">Расширенный поиск</a>
+                </div>
+            </li>
+        </nav>
+        <div class="header__basket"><a href="../basket/index.html">Корзина</a></div>
+    </div>
+
+</header>
+    <main class="body-container">
+      <section class="control-section">
+        <h2>Найти:</h2>
+        <div class="choose-section">
+          <fieldset class="choose-section__fieldset">
+            <legend>Кабель</legend>
+            <div class="choose-section__container">
+              <label for="">Артикул:</label>
+              <input type="number">
+              <button>Поиск</button>
+            </div>
+            <button class="choose-section__container">По параметрам</button>
+            <button class="choose-section__container">Расширенный поиск</button>
+          </fieldset>
+  
+          <fieldset class="choose-section__fieldset">
+            <legend>Аксессуар</legend>
+            <div class="choose-section__container">
+              <label for="">Артикул:</label>
+              <input type="number">
+              <button>Найти</button>
+            </div>
+            <button class="choose-section__container">По параметрам</button>
+            <button class="choose-section__container">Расширенный поиск</button>
+          </fieldset>
+  
+        </div>
+      </section>
+      <section class="info-section">
+
+      </section>
+    </main>
+    <footer>
+        <div class="footer-contacts" id="contacts">
+            <h3 class="heading-3">Контакты</h3>
+            <ul>
+                <li class="underline"><a class="link-button" href="https://maps.app.goo.gl/dqFYFvqDDb32fdqs5" target="_blank" ><img src="../../assets/img/icons/geo.svg" alt="adress"><span> 195248, г. Санкт-Петербург, пр. Энергетиков, 19 (БЦ “LinkPlace”), 2-й эт., оф. 206</span></a></li>
+                <li class="underline"><a class="link-button" href="tel:+88125645040"><img src="../../assets/img/icons/phone.svg" alt="phone"><span>8 (812) 564-50-40</span></a></li>
+                <li class="underline link-button"><img src="../../assets/img/icons/clock.svg" alt="shedule"><span>Понедельник-Пятница: 9:00 AM – 23:00 PM</span></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script  type="module" src="./fast-search.js"></script>
+</body>
+</html>
+
+
